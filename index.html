@@ -1,441 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company NAME</title>
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <header class="site-header">
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>Lorem Ipsum Dolor Sit Amet</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <ul class="list-inline pull-right">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-                            <li><a href="tel:+902222222222"><i class="fa fa-phone"></i> +90 222 222 22 22</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="navbar navbar-default">
-			<div class="container">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
-					<span class="sr-only">Toggle Navigation</span>
-					<i class="fa fa-bars"></i>
-				</button>
-				<a href="index.html" class="navbar-brand">
-					<img src="img/logo.png" alt="Post">
-				</a>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-                    <ul class="nav navbar-nav main-navbar-nav">
-                        <li class="active"><a href="index.html" title="">HOME</a></li>
-                        <li class="dropdown">
-                            <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DROPDOWN MENU <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#" title="">SUB MENU 1</a></li>
-                                <li><a href="#" title="">SUB MENU 2</a></li>
-                                <li><a href="#" title="">SUB MENU 3</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="page.html" title="">PAGE</a></li>
-                        <li><a href="category.html" title="">CATEGORY</a></li>
-                        <li><a href="#" title="">MENU ITEM</a></li>
-                        <li><a href="#" title="">MENU ITEM</a></li>
-                    </ul>                           
-                </div><!-- /.navbar-collapse -->                
-				<!-- END MAIN NAVIGATION -->
-			</div>
-		</nav>        
-    </header>
-    <main class="site-main">
-        <section class="hero_area">
-            <div class="hero_content">
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Ashwin</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="HTML/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="HTML/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="HTML/css/animate.css" rel="stylesheet">
+        <link href="HTML/vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="HTML/css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1>COMPANY NAME</h1>
-                            <h2>Donec Elit Non Porta Gravida Eget Metus</h2>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                             <!--   <img class="logo-img" src="img/logo.png" alt="Asentus Logo"> -->
+                            </a>
                         </div>
+                        <!-- End Logo -->
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="boxes_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="box">
-                            <h3>FIRST BOX TITLE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            <i class="fa fa-cogs"></i>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="box">
-                            <h3>SECOND BOX TITLE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            <i class="fa fa-exclamation-triangle"></i>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="box">
-                            <h3>THIRD BOX TITLE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            <i class="fa fa-clipboard"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="services">
-            <h2 class="section-title">SERVICES</h2>
-            <p class="desc">Praesent faucibus ipsum at sodales blandit</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-cogs"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">FIRST SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor amet,consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-user-md"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SECOND SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-stethoscope"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">THIRD SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-graduation-cap"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">FOURTH SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-file-text-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">FIFTH SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="media">
-                            <div class="media-left media-middle">
-                                <i class="fa fa-heartbeat"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">SIXTH SERVICE TITLE</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id pulvinar magna. Aenean accumsan iaculis lorem, nec sodales lectus auctor tempor.</p>
-                            </div>
-                        </div>
-                    </div>                     
-                </div>
-            </div>
-        </section>
-        <section class="home-area">
-            <div class="home_content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12"><h2 class="sub_title">LATEST NEWS</h2></div>
-                        <div class="home_list">
-                            <ul>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/h1.jpeg" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">Post Title</a></h3>
-                                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                            <a href="#" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/h2.jpg" class="img-responsive" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">Post Title</a></h3>
-                                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                            <a href="#" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/h3.jpeg" class="img-responsive" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">Post Title</a></h3>
-                                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                            <a href="#" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>
-                                <li class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="thumbnail">
-                                        <img src="img/h4.jpeg" class="img-responsive" alt="Post">
-                                        <div class="caption">
-                                            <h3><a href="#">Post Title</a></h3>
-                                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                            <a href="#" class="btn btn-link" role="button">More</a>
-                                        </div>
-                                    </div>                                        
-                                </li>                                    
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
                         </div>
-                        
-                        <div class="col-sm-9 home_bottom">
-                            <h2 class="sub_title">REFERENCES</h2>
-                            <div class="clearfix"></div>
-                            <div class="row">
-                                <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="6000" id="myCarousel">
-                                    <div class="carousel-inner">
-                                        <div class="item active">
-                                            <div class="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src="img/l1.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src="img/l2.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l3.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l4.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l5.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l6.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l7.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l8.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src="img/l1.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12 p10">
-                                                <a href="#"><img src="img/l2.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l3.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l4.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l5.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l6.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l7.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="col-md-2 col-sm-6 col-xs-12">
-                                                <a href="#"><img src="img/l8.jpg" class="img-responsive" alt="Reference"></a>
-                                            </div>
-                                        </div>                                        
-                                    </div>
-                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                                    <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="col-sm-3">
-                            <h2 class="sub_title w10">CALL YOU</h2>
-                            <div class="clearfix"></div>
-                            <div class="login-form-1">
-                                <form id="login-form" class="text-left">
-                                    <div class="login-form-main-message"></div>
-                                    <div class="main-login-form">
-                                        <div class="login-group">
-                                            <div class="form-group">
-                                                <label for="ad" class="sr-only">Name</label>
-                                                <input type="text" class="form-control" id="ad" name="ad" placeholder="Name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="tel" class="sr-only">Phone Number</label>
-                                                <input type="text" class="form-control" id="tel" name="tel" placeholder="Phone Number">
-                                            </div>
-                                        </div>
-                                        <button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
-                                    </div>
-                                </form>
-                            </div>                            
-                        </div>
                     </div>
+                    <!-- End Navbar Collapse -->
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>COMPANY NAME</h4>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue lectus diam, sit amet cursus massa efficitur sed. </p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>                        
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>SERVICES</h4>
-                    <ul class="big">
-                        <li><a href="#" title="">Title One</a></li>
-                        <li><a href="#" title="">Title Two</a></li>
-                        <li><a href="#" title="">Title Three</a></li>
-                        <li><a href="#" title="">Title Four</a></li>
-                        <li><a href="#" title="">Title Five</a></li>
-                        <li><a href="#" title="">Title Six</a></li>
-                        <li><a href="#" title="">Title Seven</a></li>
-                        <li><a href="#" title="">Title Eight</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>CONTENT</h4>
-                    <ul class="big">
-                        <li><a href="#" title="">Title One</a></li>
-                        <li><a href="#" title="">Title Two</a></li>
-                        <li><a href="#" title="">Title Three</a></li>
-                        <li><a href="#" title="">Title Four</a></li>
-                        <li><a href="#" title="">Title Five</a></li>
-                        <li><a href="#" title="">Title Six</a></li>
-                        <li><a href="#" title="">Title Seven</a></li>
-                        <li><a href="#" title="">Title Eight</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>CONTENT</h4>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p><a href="tel:+902222222222"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +90 222 222 22 22</a></p>
-                    <p><a href="mailto:iletisim@agrisosgb.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> mail@awebsitename.com</a></p>
-                </div>
-            </div>
-        </div>
-        <div id="copyright">
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block" style="background-image: url(HTML/img/mockup/flag.png);">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <p class="pull-left">&copy; 2017 COMPANY NAME</p>
-                    </div>
-                    <div class="col-md-8">
-                        <ul class="list-inline navbar-right">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">MENU ITEM</a></li>
-                            <li><a href="#">MENU ITEM</a></li>
-                            <li><a href="#">MENU ITEM</a></li>
-                            <li><a href="#">MENU ITEM</a></li>
-                            <li><a href="#">MENU ITEM</a></li>
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h3 class="promo-block-title" style="font-size: 53px;line-height: 0.7;color: #3A96D8;">Ashwin</h3>
+							<h1 class="promo-block-title" style="font-size:85px !important;color: #3A96D8;">Patel</h1>
+                            <p class="promo-block-text" style="color: #fff;">Vice President</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
                         </ul>
                     </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="" align="Avatar" style="border-radius:50%;">
+                        </div>
+                    </div>
                 </div>
+                <!--// end row  img/mockup/asw.png-->
             </div>
-        </div>        
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        $('.carousel[data-type="multi"] .item').each(function(){
-          var next = $(this).next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
-          }
-          next.children(':first-child').clone().appendTo($(this));
+        </div>
+        <!--========== SLIDER ==========-->
 
-          for (var i=0;i<4;i++) {
-            next=next.next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about" style="height: 500px;">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="HTML/img/500x700/Chrysanthemum.jpg" alt="Image" style="height: 380px !important;">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>About Me</h2>
+                                    <p>Tendulkar received the Arjuna Award in 1994 for his outstanding sporting achievement, the Rajiv Gandhi Khel Ratna award in 1997, India's highest sporting honour, and the Padma Shri and Padma Vibhushan awards in 1999 and 2008, respectively, India's fourth and second highest civilian awards.[11] After a few hours of his final match on 16 November 2013, the Prime Minister's Office announced the decision to award him the Bharat Ratna, India's highest civilian award.[12][13] He is the youngest recipient to date and the first ever sportsperson to receive the award.[14][15] He also won the 2010 Sir Garfield Sobers Trophy for cricketer of the year at the ICC awards.[16] In 2012, Tendulkar was nominated to the Rajya Sabha, the upper house of the Parliament of India.[17] He was also the first sportsperson and the first person without an aviation background to be awarded the honorary rank of group captain by the Indian Air Force.[18] In 2012, he was named an Honorary Member of the Order of Australia</p>
+                                    <p>Tendulkar received the Arjuna Award in 1994 for his outstanding sporting achievement, the Rajiv Gandhi Khel Ratna award in 1997, India's highest sporting honour, and the Padma Shri and Padma Vibhushan awards in 1999 and 2008, respectively, India's fourth and second highest civilian awards.[11] After a few hours of his final match on 16 November 2013, the Prime Minister's Office announced the decision to award him the Bharat Ratna, India's highest civilian award.[12][13] He is the youngest recipient to date and the first ever sportsperson to receive the award.</p>
+                                </div>
+                             <!--   <a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a> -->
+                            </div>
+                        </div>
+						
+					<!--	<div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>About Me</h2>
+                                    <p>I'm Aswin working on sql development in newyork.</p>
+                                    <p>In health smart company.</p>
+                                </div>
+                             <!--   <a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my CV</a> -->
+                    <!--        </div>
+                        </div> -->
 
-            next.children(':first-child').clone().appendTo($(this));
-          }
-        });        
-    </script>
-</body>
+                <!--        <h2>My Skills</h2>
+                        <!-- Progress Box -->
+                <!--        <div class="progress-box">
+                            <h5>Sql Server <span class="color-heading pull-right">87%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Manager <span class="color-heading pull-right">96%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Director<span class="color-heading pull-right">77%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+    <!--    <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-mustache"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Illustrator</h3>
+                                    <p class="margin-b-5">Color test</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">Graphic Design</h3>
+                                    <p class="color-white margin-b-5">Color test 2</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Photoshop</h3>
+                                    <p class="margin-b-5">Color test 3</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Sketch</h3>
+                                    <p class="margin-b-5">Color test 4</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+        <!--        </div>
+            </div>
+        </div>
+        <!-- End Experience -->
+
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Latest News</h2>
+                        <p></p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+					
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="HTML/img/970x647/01.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
+                        <p>Test data for traingle roof</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="HTML/img/970x647/02.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
+                        <p>Test area for curved corners</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="HTML/img/970x647/03.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
+                        <p>Test area for bird on green</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
+
+        <!-- Clients -->
+  <!--      <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Clients -->
+          <!--      <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+            <!--        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper -->
+           <!--     </div>
+                <!-- End Swiper Clients -->
+        <!--    </div>
+        </div> -->
+        <!-- End Clients -->
+
+        <!-- Promo Banner -->
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="HTML/img/1920x1080/01.jpg" style="text-align: left;">
+            <div class="container-sm content-lg">
+				<div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2 style="color:#fff;">Contact Me</h2>
+                            <p style="color:#fff;">Contact me </p>
+                        </div>
+                    </div>
+				<div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4 style="color:#fff;">Location</h4>
+                            <a href="#" style="color:#fff;">Brookyln, New York</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4 style="color:#fff;">Phone</h4>
+                            <a href="#" style="color:#fff;">+77 234 548 00 00</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4 style="color:#fff;">Email</h4>
+                            <a href="mailto:#" style="color:#fff;">aswin@gmail.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4 style="color:#fff;">Web</h4>
+                            <a href="#" style="color:#fff;"></a>
+                        </div>
+                    </div>
+				<div class="row" style="margin-top:38px;">
+				<ul class="list-inline">
+                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+				</div>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+            
+        <!-- Contact -->
+    <!--    <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Contact Me</h2>
+                            <p>Contact me </p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+          <!--          <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a href="#">Brookyln, New York</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Phone</h4>
+                            <a href="#">+77 234 548 00 00</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Email</h4>
+                            <a href="mailto:#">aswin@gmail.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Web</h4>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+    <!--            </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                   <!--     <img class="footer-logo" src="img/logo.png" alt="Acecv Logo"> -->
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Ashwin</a><!-- Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a> --></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="HTML/vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="HTML/vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="HTML/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="HTML/vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="HTML/vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="HTML/vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="HTML/vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="HTML/vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="HTML/vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="HTML/vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="HTML/js/layout.min.js" type="text/javascript"></script>
+        <script src="HTML/js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="HTML/js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="HTML/js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
